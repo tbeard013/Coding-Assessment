@@ -1,0 +1,16 @@
+C:\Users\taylo\Documents\myassessment\bin\Debug\net5.0\myassessment.exe
+C:\Users\taylo\Documents\myassessment\bin\Debug\net5.0\myassessment.deps.json
+C:\Users\taylo\Documents\myassessment\bin\Debug\net5.0\myassessment.runtimeconfig.json
+C:\Users\taylo\Documents\myassessment\bin\Debug\net5.0\myassessment.runtimeconfig.dev.json
+C:\Users\taylo\Documents\myassessment\bin\Debug\net5.0\myassessment.dll
+C:\Users\taylo\Documents\myassessment\bin\Debug\net5.0\ref\myassessment.dll
+C:\Users\taylo\Documents\myassessment\bin\Debug\net5.0\myassessment.pdb
+C:\Users\taylo\Documents\myassessment\obj\Debug\net5.0\myassessment.csproj.AssemblyReference.cache
+C:\Users\taylo\Documents\myassessment\obj\Debug\net5.0\myassessment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\taylo\Documents\myassessment\obj\Debug\net5.0\myassessment.AssemblyInfoInputs.cache
+C:\Users\taylo\Documents\myassessment\obj\Debug\net5.0\myassessment.AssemblyInfo.cs
+C:\Users\taylo\Documents\myassessment\obj\Debug\net5.0\myassessment.csproj.CoreCompileInputs.cache
+C:\Users\taylo\Documents\myassessment\obj\Debug\net5.0\myassessment.dll
+C:\Users\taylo\Documents\myassessment\obj\Debug\net5.0\ref\myassessment.dll
+C:\Users\taylo\Documents\myassessment\obj\Debug\net5.0\myassessment.pdb
+C:\Users\taylo\Documents\myassessment\obj\Debug\net5.0\myassessment.genruntimeconfig.cache
