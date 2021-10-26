@@ -9,17 +9,32 @@ namespace myassessment
     {
         public static void Main(string[] args)
         {
-            // Initialize string variables for the paragraph and letter the user will enter
+            // Initialize variables for the paragraph and letter the user will enter
             string paragraph;
+            string userLetter;
             char specialLetter;
 
             // Prompt the user to input the paragraph
             Console.WriteLine("\nPlease input your paragraph: ");
             paragraph = Console.ReadLine();
+            // If user failed to enter anything, terminate the program
+            if(paragraph == "")
+            {
+                Console.WriteLine("\nYou entered an empty string. Exiting program.");
+                Environment.Exit(-1);
+            }
+
             // Prompt the user to input the letter
             Console.WriteLine("\nPlease input a single letter to check for all words containing that letter: ");
-            specialLetter = Console.ReadLine()[0];
-
+            userLetter = Console.ReadLine();
+            // If the user failed to enter anything, terminate the program
+            if(userLetter == "")
+            {
+                Console.WriteLine("\nNothing was entered. Exiting program.");
+                Environment.Exit(-1);
+            }
+            // Convert first letter of string to a character
+            specialLetter = userLetter[0];
             // Check if the character the user entered is a letter
             bool isLetter = Char.IsLetter(specialLetter);
             // If it is not a valid letter, enter the while loop
@@ -27,7 +42,14 @@ namespace myassessment
             {
                 // Prompt the user to enter a valid letter
                 Console.WriteLine("\nYou entered an invalid character. Please enter only a single letter: ");
-                specialLetter = Console.ReadLine()[0];
+                userLetter = Console.ReadLine();
+                // If the user failed to enter anything, terminate the program
+                if(userLetter == "")
+                {
+                    Console.WriteLine("\nNothing was entered. Exiting program.");
+                    Environment.Exit(-1);
+                }
+                specialLetter = userLetter[0];
                 // Check the entered character again, loop will break if it is valid
                 isLetter = Char.IsLetter(specialLetter);
             }
